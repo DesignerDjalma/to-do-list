@@ -1,0 +1,41 @@
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+ul li:hover {
+    background: #ddd;
+  }
+
+ul li.checked{
+    text-decoration: line-through;
+  }
+
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+li {
+    padding: 5px;
+}
+
+#meuInput{
+    padding: 10px;
+}
+
+.addBtn{
+    padding: 10px;
+}
+
+.tarefa {
+    margin: 10px;
+}
